@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+body{
+    background-color: whitesmoke;
+}
+div{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    
+
+}
+#he{
+    height: 100px;
+    width: 10px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+    0%{
+        color: red;
+        background-color: blue;
+        margin-top: 50px;
+    }
+    50%{
+        color: green;
+        background-color: yellowgreen;
+        margin-top: 0px;
+    }
+    100%{
+        color: violet;
+        background-color: orangered;
+        margin-top: 50px;
+    }
+}
+
+span:nth-child(even){
+
+    animation-name: a;
+    animation-duration: 1s;
+    display: inline-block;
+    animation: iteration-count:infinite;
+    animation direction: reverse;
+    animation delay:3s
+
+
+}
+span:nth-child(odd){
+    animation-name: a;
+    animation-duration: 2s;
+    display: inline-block;
+    animation direction: reverse;
+    animation iteration-count:infinite;
+
+
+}
+
+    </style>
+</head>
+<body>
+    <center>
+        
+    <img src="../images/Boys-2003-250x250.jpg" width="400" height="500"></center>
+
+    
+        <audio src="../audio/06 - Ale Ale  - SenSongsMp3.co.mp3" controls></audio>
+        <a href="../audio/06 - Ale Ale  - SenSongsMp3.co.mp3" download><button>download</button></a> 
+        </audio>
+
+        <div>
+
+
+        <span id="he"></span>
+        <span id="he"></span>
+        <span id="he"></span>
+        <span id="he"></span>
+        <span id="he"></span>
+        </div>
+    
+  
+</body>
+</html>
